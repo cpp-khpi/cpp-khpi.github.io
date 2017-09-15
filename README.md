@@ -183,9 +183,9 @@
 
 ## Додатки
 
-Розміщуються в директорії [doc](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/doc) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/ntxone/temp.git/trunk/doc):
+Розміщуються в директорії [doc](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/doc) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/doc):
  
-`https://github.com/ntxone/temp.git/trunk/doc`
+`https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/doc`
 
 |  №  | Файл | Зміст |
 |:---:|:-----|:------|
