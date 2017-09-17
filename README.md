@@ -181,6 +181,7 @@
 
 ---
 
+<span id="appendices"></span>
 ## Додатки
 
 Розміщуються в директорії [doc](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/doc) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/doc):
@@ -191,7 +192,12 @@
 |:---:|:-----|:------|
 |  1  | [cpp_coding_conventions.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/cpp_coding_conventions.pdf) | Правила оформлення коду |
 |  2  | [doxy.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/doxy.pdf) | Рекомендації до використання [Doxygen](#doxy) |
-|  3  | [report.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/report.pdf) | Приклад альбому звітів |
+|  3  | [report.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/report.pdf) | Приклад звіту у форматі PDF |
+|  4  | [readme.md](https://github.com/cpp-khpi/cpp-khpi.github.io/blob/master/doc/demo/readme.md) | Приклад звіту у текстовому форматі |
+
+**Приклади рішень** розміщуються в директорії [src](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/src) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/src):
+ 
+`https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/src`
 
 ---
 
