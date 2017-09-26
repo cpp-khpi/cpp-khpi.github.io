@@ -28,7 +28,7 @@
 	- Server address: `172.17.10.2`;
 	- Port: `3128`.
 
-3. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - [Subversion](https://ru.wikipedia.org/wiki/Subversion) integration plug-in for Visual Studio ([Getting started...](https://www.visualsvn.com/visualsvn/getting-started/)).
+3. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - [Subversion](https://ru.wikipedia.org/wiki/Subversion) integration plug-in for Visual Studio ([Getting Started](https://www.visualsvn.com/visualsvn/getting-started/)).
 
 4. [SVN Hosting](https://github.com) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - веб-сервіс управління версіями:
 	- потрібна попередня [реєстрація](https://github.com/join);
@@ -44,7 +44,7 @@
 	- [Subclipse Eclipse update site URL](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in, що підтримує [Subversion](https://ru.wikipedia.org/wiki/Subversion) ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
 		- Subclipse;
 		- Subversion JavaHL Windows Native DLL's.
-	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in, що підтримує [Cppcheck](#cppcheck) ([Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)).
+	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in, що підтримує [Cppcheck](#cppcheck) ([Getting Started](https://github.com/kwin/cppcheclipse/wiki/GetStarted)).
 
 2. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор.
 	- Спосіб №1: завантажити з [сайту](http://www.equation.com/servlet/equation.cmd?fa=fortran) ISO-образ відповідної версії та виконати з нього встановлення, або використати архів, що саморозпаковується.
