@@ -157,26 +157,42 @@
 
 ---
 
+## Online Compilers and IDEs
+
+- [JDoodle](https://www.jdoodle.com/). Easy and Quick way to run Programs Online.
+- [GDB Online](https://www.onlinegdb.com/). Online compiler and debugger tool for C/C++ languages.
+- [Coding Ground](https://www.tutorialspoint.com/codingground.htm). An online Lab for IT Professionals.
+
+---
+
 <span id="references"></span>
 ## Рекомендації
 
+### C Programming Language
+
+- [Wiki. C Programming Language](https://en.wikipedia.org/wiki/C_(programming_language))
+- [Wiki. C Data Types](https://en.wikipedia.org/wiki/C_data_types)
+- [Wiki. C Syntax](https://en.wikipedia.org/wiki/C_syntax)
+- [Wiki. C Standard Library](https://en.wikipedia.org/wiki/C_standard_library)
+- [The International Standardization Working Group for the Programming Language C](http://www.open-std.org/jtc1/sc22/wg14/)
+- [ISO/IEC 9899:2011 - Standard for Programming
+Language C (C11). Draft](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
+- [Wiki. Operators in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B)
+
+### C++ Programming Language
+
+- [Wiki. C++ Programming Language](https://en.wikipedia.org/wiki/C%2B%2B)
 - [C++ Reference](http://en.cppreference.com/).
 - [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/).
 - [Standard C++ Library reference](http://www.cplusplus.com/reference/).
 - [C++ STL Tutorial](http://www.tutorialspoint.com/cplusplus/cpp_stl_tutorial.htm).
 - [Bjarne Stroustrup's homepage](http://www.stroustrup.com/).
 - [C++ 11 FAQ от Бьярна Страуструпа](http://sergeyteplyakov.blogspot.com/2012/05/c-11-faq.html).
-- [The C++ Standards Committee](http://www.open-std.org/JTC1/SC22/WG21/).
+- [The International Standardization Working Group for the Programming Language C++](http://www.open-std.org/JTC1/SC22/WG21/).
+- [SO/IEC 14882:2014 - Standard for Programming
+Language C++ (C++14). Working Draft](http://www.open-std.org/JTC1/SC22/WG21/docs/papers/2013/n3797.pdf)
 - [News, Status & Discussion about Standard C++](https://isocpp.org/).
 - [Coding Standards](https://isocpp.org/wiki/faq/coding-standards).
-
----
-
-## Online Compilers and IDEs
-
-- [JDoodle](https://www.jdoodle.com/). Easy and Quick way to run Programs Online.
-- [GDB Online](https://www.onlinegdb.com/). Online compiler and debugger tool for C/C++ languages.
-- [Coding Ground](https://www.tutorialspoint.com/codingground.htm). An online Lab for IT Professionals.
 
 ---
 
