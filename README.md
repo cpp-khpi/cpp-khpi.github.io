@@ -36,7 +36,7 @@
 
 ### Альтернативні
 
-7. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) <sup><abbr title="Налаштування власноруч">[2](#note_cdt)</abbr></sup> - середовище розробки програм мовою C/C++ ([C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
+1. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) <sup><abbr title="Налаштування власноруч">[2](#note_cdt)</abbr></sup> - середовище розробки програм мовою C/C++ ([C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
 
 	За потребою, встановити [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
@@ -46,7 +46,7 @@
 		- Subversion JavaHL Windows Native DLL's;
 	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in, що підтримує [Cppcheck](#cppcheck). [Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)
 
-8. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор.
+2. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор.
 	- Спосіб №1: завантажити з [сайту](http://www.equation.com/servlet/equation.cmd?fa=fortran) ISO-образ відповідної версії та виконати з нього встановлення, або використати архів, що саморозпаковується.
 	- Спосіб №2: розпакувати в кореневу директорію [MinGW-w64](https://uk.wikipedia.org/wiki/MinGW#MinGW-w64) відповідної версії для платформи [Win32](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/) чи [Win64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/).
 	- Спосіб №3: скористатися [MSYS2 online installer](http://msys2.github.io/) ([MSYS2 installation](https://github.com/msys2/msys2/wiki/MSYS2-installation)).
@@ -55,9 +55,9 @@
 
 ### Online Compilers and IDEs
 
-9. [JDoodle](https://www.jdoodle.com/). Easy and Quick way to run Programs Online.
-10. [GDB Online](https://www.onlinegdb.com/). Online compiler and debugger tool for C/C++ languages.
-11. [Coding Ground](https://www.tutorialspoint.com/codingground.htm). An online Lab for IT Professionals.
+1. [JDoodle](https://www.jdoodle.com/). Easy and Quick way to run Programs Online.
+2. [GDB Online](https://www.onlinegdb.com/). Online compiler and debugger tool for C/C++ languages.
+3. [Coding Ground](https://www.tutorialspoint.com/codingground.htm). An online Lab for IT Professionals.
 
 ---
 
