@@ -53,6 +53,12 @@
 	
 	ВАЖЛИВО: <sup><abbr title="Eclipse використовує значення змінних середовища: PATH, MINGW_HOME, MSYS_HOME">[3](#note_msys)</abbr></sup> налаштувати змінну середовища `PATH` - додати шлях до директорії `bin` встановленого GCC/MinGW (наприклад: `D:\mingw64\bin`, або `D:\gcc\bin`). Розрядність (32 або 64) встановлених JDK, Eclipse та GCC/MinGW повинна бути однаковою.
 
+### Online Compilers and IDEs
+
+9. [JDoodle](https://www.jdoodle.com/). Easy and Quick way to run Programs Online.
+10. [GDB Online](https://www.onlinegdb.com/). Online compiler and debugger tool for C/C++ languages.
+11. [Coding Ground](https://www.tutorialspoint.com/codingground.htm). An online Lab for IT Professionals.
+
 ---
 
 <span id="lab_todo"></span>
@@ -157,14 +163,6 @@
 
 ---
 
-## Online Compilers and IDEs
-
-- [JDoodle](https://www.jdoodle.com/). Easy and Quick way to run Programs Online.
-- [GDB Online](https://www.onlinegdb.com/). Online compiler and debugger tool for C/C++ languages.
-- [Coding Ground](https://www.tutorialspoint.com/codingground.htm). An online Lab for IT Professionals.
-
----
-
 <span id="references"></span>
 ## Рекомендації
 
@@ -182,17 +180,17 @@ Language C (C11). Draft](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.p
 ### C++ Programming Language
 
 - [Wiki. C++ Programming Language](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++ Reference](http://en.cppreference.com/).
-- [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/).
-- [Standard C++ Library reference](http://www.cplusplus.com/reference/).
-- [C++ STL Tutorial](http://www.tutorialspoint.com/cplusplus/cpp_stl_tutorial.htm).
-- [Bjarne Stroustrup's homepage](http://www.stroustrup.com/).
-- [C++ 11 FAQ от Бьярна Страуструпа](http://sergeyteplyakov.blogspot.com/2012/05/c-11-faq.html).
-- [The International Standardization Working Group for the Programming Language C++](http://www.open-std.org/JTC1/SC22/WG21/).
+- [C++ Reference](http://en.cppreference.com/)
+- [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/)
+- [Standard C++ Library Reference](http://www.cplusplus.com/reference/)
+- [C++ STL Tutorial](http://www.tutorialspoint.com/cplusplus/cpp_stl_tutorial.htm)
+- [Bjarne Stroustrup's homepage](http://www.stroustrup.com/)
+- [C++ 11 FAQ от Бьярна Страуструпа](http://sergeyteplyakov.blogspot.com/2012/05/c-11-faq.html)
+- [The International Standardization Working Group for the Programming Language C++](http://www.open-std.org/JTC1/SC22/WG21/)
 - [SO/IEC 14882:2014 - Standard for Programming
 Language C++ (C++14). Working Draft](http://www.open-std.org/JTC1/SC22/WG21/docs/papers/2013/n3797.pdf)
-- [News, Status & Discussion about Standard C++](https://isocpp.org/).
-- [Coding Standards](https://isocpp.org/wiki/faq/coding-standards).
+- [News, Status & Discussion about Standard C++](https://isocpp.org/)
+- [Coding Standards](https://isocpp.org/wiki/faq/coding-standards)
 
 ---
 
