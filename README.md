@@ -21,18 +21,18 @@
 
 ### Додаткові
 
-1. [Cppcheck](http://cppcheck.sourceforge.net/)<span id="cppcheck"></span> - статичний аналізатор C/C++ коду, призначений для пошуку помилок, які не виявляються компилятором.
+1. [Cppcheck](http://cppcheck.sourceforge.net/)<span id="cppcheck"></span> - статичний аналізатор C/C++ коду, призначений для пошуку помилок, які не виявляються компілятором.
 
-2. [TortoiseSVN](http://tortoisesvn.net/downloads.html) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion (SVN) client. В лабораторіях ОЦ НТУ "ХПІ" активувати використання *proxy-сервера* в меню *TortoiseSVN/Settings/Network*:
+2. [TortoiseSVN](http://tortoisesvn.net/downloads.html) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - [Subversion (SVN)](https://ru.wikipedia.org/wiki/Subversion) client. В лабораторіях ОЦ НТУ "ХПІ" активувати використання *proxy-сервера* в меню *TortoiseSVN/Settings/Network*:
 	- Enable Proxy Server;
 	- Server address: `172.17.10.2`;
 	- Port: `3128`.
 
-3. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion integration plug-in for Visual Studio. [Getting started...](https://www.visualsvn.com/visualsvn/getting-started/)
+3. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - [Subversion](https://ru.wikipedia.org/wiki/Subversion) integration plug-in for Visual Studio ([Getting started...](https://www.visualsvn.com/visualsvn/getting-started/)).
 
 4. [SVN Hosting](https://github.com) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - веб-сервіс управління версіями:
 	- потрібна попередня [реєстрація](https://github.com/join);
-	- при реєстрації **обов'язково** вказувати **Username** у вигляді **surname-name** - прізвище та ім'я розробника [латинкою в нижньому регістрі](http://translit.kh.ua/?lat&passport);
+	- при реєстрації **обов'язково** вказувати **Username** у вигляді **surname-name** - прізвище та ім'я розробника [латинкою в нижньому регістрі](http://translit.kh.ua/?lat&passport).
 
 ### Альтернативні
 
@@ -41,10 +41,10 @@
 	За потребою, встановити [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 	<span id="eclipse"></span>Додатково встановити:
-	- [Subclipse Eclipse update site URL](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in, що підтримує Subversion ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
+	- [Subclipse Eclipse update site URL](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in, що підтримує [Subversion](https://ru.wikipedia.org/wiki/Subversion) ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
 		- Subclipse;
-		- Subversion JavaHL Windows Native DLL's;
-	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in, що підтримує [Cppcheck](#cppcheck). [Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)
+		- Subversion JavaHL Windows Native DLL's.
+	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in, що підтримує [Cppcheck](#cppcheck) ([Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)).
 
 2. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор.
 	- Спосіб №1: завантажити з [сайту](http://www.equation.com/servlet/equation.cmd?fa=fortran) ISO-образ відповідної версії та виконати з нього встановлення, або використати архів, що саморозпаковується.
