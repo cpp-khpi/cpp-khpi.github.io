@@ -197,20 +197,21 @@ Language C++ (C++14). Working Draft](http://www.open-std.org/JTC1/SC22/WG21/docs
 <span id="appendices"></span>
 ## Додатки
 
-Розміщуються в директорії [doc](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/doc) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/doc):
+1. **Приклади рішень** розміщуються в директорії [src](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/src) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/src):
  
-`https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/doc`
+	`https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/src`
+
+2. **Документи** розміщуються в директорії [doc](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/doc) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/doc):
+ 
+	`https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/doc`
 
 |  №  | Файл | Зміст |
 |:---:|:-----|:------|
-|  1  | [cpp_coding_conventions.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/cpp_coding_conventions.pdf) | Правила оформлення коду |
-|  2  | [doxy.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/doxy.pdf) | Рекомендації до використання [Doxygen](#doxy) |
-|  3  | [report.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/report.pdf) | Приклад звіту у форматі PDF |
-|  4  | [readme.md](https://github.com/cpp-khpi/cpp-khpi.github.io/blob/master/doc/demo/readme.md) | Приклад звіту у текстовому форматі |
-
-**Приклади рішень** розміщуються в директорії [src](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/src) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/src):
- 
-`https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/src`
+|  1  | [programming.zip](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/programming.zip) | Лабораторні роботи. Пароль - англомовна назва міста на мапі Google |
+|  2  | [cpp_coding_conventions.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/cpp_coding_conventions.pdf) | Правила оформлення коду |
+|  3  | [doxy.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/doxy.pdf) | Рекомендації до використання [Doxygen](#doxy) |
+|  4  | [report.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/report.pdf) | Приклад звіту у форматі PDF |
+|  5  | [readme.md](https://github.com/cpp-khpi/cpp-khpi.github.io/blob/master/doc/demo/readme.md) | Приклад звіту у текстовому форматі |
 
 ---
 
