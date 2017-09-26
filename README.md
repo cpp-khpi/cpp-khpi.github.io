@@ -23,7 +23,7 @@
 
 1. [Cppcheck](http://cppcheck.sourceforge.net/)<span id="cppcheck"></span> - статичний аналізатор C/C++ коду, призначений для пошуку помилок, які не виявляються компілятором.
 
-2. [TortoiseSVN](http://tortoisesvn.net/downloads.html) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - [Subversion (SVN)](https://ru.wikipedia.org/wiki/Subversion) client. В лабораторіях ОЦ НТУ "ХПІ" активувати використання *proxy-сервера* в меню *TortoiseSVN/Settings/Network*:
+2. [TortoiseSVN](http://tortoisesvn.net/downloads.html) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - [Subversion](https://ru.wikipedia.org/wiki/Subversion) client ([Manuals](https://tortoisesvn.net/support.html)). В лабораторіях ОЦ НТУ "ХПІ" активувати використання *proxy-сервера* в меню *TortoiseSVN/Settings/Network*:
 	- Enable Proxy Server;
 	- Server address: `172.17.10.2`;
 	- Port: `3128`.
