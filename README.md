@@ -177,6 +177,18 @@
 Language C (C11). Draft](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
 - [Wiki. Operators in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B)
 
+- C Programming: A Modern Approach, 2nd Edition by K. N. King Paperback. ISBN-13: 978-0393979503, ISBN-10: 0393979504
+- Study Guide: for C Programming: A Modern Approach by Manuel E. Bermude. ISBN-13: 978-0393969467, ISBN-10: 0393969460
+- Programming in C (3rd Edition) by Stephen G. Kochan. ISBN-13: 978-0672326660, ISBN-10: 0672326663
+- C Programming Language, 2nd Edition by Brian W. Kernighan. ISBN-13: 978-0131103627, ISBN-10: 0131103628
+- Язык программирования С. Керниган Б., Ритчи Д. ISBN 978-5-8459-1975-5, 0-13-110362-8
+- C Unleashed by Richard Heathfield and Lawrence Kirby. ISBN-10: 0672318962, ISBN-13: 978-0672318962
+- Искусство программирования на С: Фундаментальные алгоритмы, структуры данных и примеры приложений : пер. с англ. / Ричард Хэзфилд, Лоуренс Кирби, - ISBN 966-7393-82-8
+- C: The Complete Reference, 4th Ed. by Herbert Schildt. ISBN-13: 978-0072121247, ISBN-10: 0072121246
+- Полный справочник по C. Герберт Шилдт. ISBN 978-5-8459-1709-6, 0-0721-2124-6
+- C How to Program by Paul J. Deitel, Harvey Deitel. ISBN-13: 978-0133976892, ISBN-10: 0133976890
+- Как программировать на С. Х. М. Дейтел, П. Дж. Дейтел. ISBN: 978-5-9518-0337-5
+
 ### C++ Programming Language
 
 - [Wiki. C++ Programming Language](https://en.wikipedia.org/wiki/C%2B%2B)
@@ -186,11 +198,18 @@ Language C (C11). Draft](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.p
 - [C++ STL Tutorial](http://www.tutorialspoint.com/cplusplus/cpp_stl_tutorial.htm)
 - [Bjarne Stroustrup's homepage](http://www.stroustrup.com/)
 - [C++ 11 FAQ от Бьярна Страуструпа](http://sergeyteplyakov.blogspot.com/2012/05/c-11-faq.html)
+- [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 - [The International Standardization Working Group for the Programming Language C++](http://www.open-std.org/JTC1/SC22/WG21/)
 - [SO/IEC 14882:2014 - Standard for Programming
 Language C++ (C++14). Working Draft](http://www.open-std.org/JTC1/SC22/WG21/docs/papers/2013/n3797.pdf)
 - [News, Status & Discussion about Standard C++](https://isocpp.org/)
 - [Coding Standards](https://isocpp.org/wiki/faq/coding-standards)
+
+- The C++ Programming Language, 4th Edition by Bjarne Stroustrup. ISBN-13: 978-0321563842, ISBN-10: 0321563840
+- C++: The Complete Reference, 4th Edition by Herbert Schildt. ISBN-13: 978-0072226805, ISBN-10: 0072226803
+- This item:Effective C++: 55 Specific Ways to Improve Your Programs and Designs (3rd Edition) by Scott Meyers. ISBN-13: 978-0321334879, ISBN-10: 0321334876
+- Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 by Scott Meyers. ISBN-13: 978-1491903995, ISBN-10: 1491903996
+- Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library by Scott Meyers. ISBN-13: 978-0201749625, ISBN-10: 0201749629
 
 ---
 
