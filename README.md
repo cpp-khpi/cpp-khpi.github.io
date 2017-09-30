@@ -66,7 +66,7 @@
 
 |  №  | Завдання |
 |:---:|:---------|
-|  1  | Розробити програму для рішення індивідуального завдання <sup><abbr title="Уточнення завдання за розсудом викладача">[4](#note_summary)</abbr></sup>. |
+|  1  | Розробити програму для рішення [індивідуального завдання](#appendices) <sup><abbr title="Уточнення завдання за розсудом викладача">[4](#note_summary)</abbr></sup>. |
 |  2  | Виконати [рефакторинґ](https://refactoring.guru/) з урахуванням загальних [вимог](#lab_requirements). |
 |  3  | Підготувати до перевірки опис розробленої програми у вигляді [звіту](#lab_report). |
 |  4  | Виправити програму з урахуванням отриманих зауважень. |
@@ -226,7 +226,7 @@ Language C++ (C++14). Working Draft](http://www.open-std.org/JTC1/SC22/WG21/docs
 
 |  №  | Файл | Зміст |
 |:---:|:-----|:------|
-|  1  | [programming.zip](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/programming.zip) | Лабораторні роботи. Пароль - англомовна назва міста на мапі Google |
+|  1  | [programming.zip](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/programming.zip) | Завдання лабораторних робіт (англомовна назва міста на мапі Google) |
 |  2  | [cpp_coding_conventions.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/cpp_coding_conventions.pdf) | Правила оформлення коду |
 |  3  | [doxy.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/doxy.pdf) | Рекомендації до використання [Doxygen](#doxy) |
 |  4  | [report.pdf](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/report.pdf) | Приклад звіту у форматі PDF |
