@@ -1,5 +1,5 @@
 PROJECT := gtk01
-CC := gcc
+CC := clang-8
 
 all:
 	$(CC) `pkg-config --cflags gtk+-3.0` -o $(PROJECT) $(PROJECT).c `pkg-config --libs gtk+-3.0`
