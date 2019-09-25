@@ -36,22 +36,23 @@
 
 ### Альтернативні
 
-1. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) <sup><abbr title="Налаштування власноруч">[2](#note_cdt)</abbr></sup> - середовище розробки програм мовою C/C++ ([C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
+1. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор. Розпакувати в кореневу директорію [MinGW-w64](https://uk.wikipedia.org/wiki/MinGW#MinGW-w64) відповідної версії для платформи [Win32](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/) чи [Win64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/). ВАЖЛИВО: налаштувати змінну середовища - додати шлях до директорії `bin` встановленого *GCC/MinGW* (наприклад: `D:\mingw64\bin`, або `D:\gcc\bin`). Розрядність (32 або 64) встановлених *JDK, Eclipse* та *GCC/MinGW* повинна бути однаковою.
 
-	За потребою, встановити [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+2. [Clang](https://uk.wikipedia.org/wiki/Clang) в складі [LLVM](https://en.wikipedia.org/wiki/LLVM). [LLVM Download Page](http://releases.llvm.org/download.html). Зручні інструменти: [scan-build](https://clang-analyzer.llvm.org/scan-build.html), [LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html), [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html).
 
-	<span id="eclipse"></span>Додатково встановити:
-	- [Subclipse Eclipse update site URL](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in, що підтримує [Subversion](https://ru.wikipedia.org/wiki/Subversion) ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
+3. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) - середовище розробки програм мовою [C++](http://isocpp.org/) ([C++ reference](http://en.cppreference.com/w/), [C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
+
+	За потребою, встановити [OpenJDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot).
+
+	Додатково встановити:
+
+	- [Subclipse (Eclipse update site URL)](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in which provides support for Subversion ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
+
 		- Subclipse;
-		- Subversion JavaHL Windows Native DLL's.
-	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in, що підтримує [Cppcheck](#cppcheck) ([Getting Started](https://github.com/kwin/cppcheclipse/wiki/GetStarted)).
 
-2. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор.
-	- Спосіб №1: завантажити з [сайту](http://www.equation.com/servlet/equation.cmd?fa=fortran) ISO-образ відповідної версії та виконати з нього встановлення, або використати архів, що саморозпаковується.
-	- Спосіб №2: розпакувати в кореневу директорію [MinGW-w64](https://uk.wikipedia.org/wiki/MinGW#MinGW-w64) відповідної версії для платформи [Win32](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/) чи [Win64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/).
-	- Спосіб №3: скористатися [MSYS2 online installer](http://msys2.github.io/) ([MSYS2 installation](https://github.com/msys2/msys2/wiki/MSYS2-installation)).
-	
-	ВАЖЛИВО: <sup><abbr title="Eclipse використовує значення змінних середовища: PATH, MINGW_HOME, MSYS_HOME">[3](#note_msys)</abbr></sup> налаштувати змінну середовища `PATH` - додати шлях до директорії `bin` встановленого GCC/MinGW (наприклад: `D:\mingw64\bin`, або `D:\gcc\bin`). Розрядність (32 або 64) встановлених JDK, Eclipse та GCC/MinGW повинна бути однаковою.
+		- Subversion JavaHL Windows Native DLL's;
+
+	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in which integrates [cppcheck](http://cppcheck.sourceforge.net/) with the CDT project ([Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)).
 
 ### Online Compilers and IDEs
 
