@@ -67,7 +67,7 @@
 
 |  №  | Завдання |
 |:---:|:---------|
-|  1  | Розробити програму для рішення [індивідуального завдання](#appendices) <sup><abbr title="Уточнення завдання за розсудом викладача">[4](#note_summary)</abbr></sup>. |
+|  1  | Розробити програму для рішення [індивідуального завдання](#appendices) <sup><abbr title="Уточнення завдання за розсудом викладача">[2](#note_summary)</abbr></sup>. |
 |  2  | Виконати [рефакторинґ](https://refactoring.guru/) з урахуванням загальних [вимог](#lab_requirements). |
 |  3  | Підготувати до перевірки опис розробленої програми у вигляді [звіту](#lab_report). |
 |  4  | Виправити програму з урахуванням отриманих зауважень. |
@@ -240,21 +240,5 @@ Language C++ (C++14). Working Draft](http://www.open-std.org/JTC1/SC22/WG21/docs
 
 1. <span id="note_svn"></span>*SVN-репозиторій* та веб-сервіс управління версіями використовувати за розсудом викладача.
 
-2. <span id="note_cdt"></span>Замість готового пакету, має сенс зібрати *Eclipse* для *C++* самостійно, виключити непотрібні модулі та забезпечити високу швидкість завантаження й мінімальний час відгуку інтерфейсу:
-	- [Завантажити](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) та встановити *Java SE Development Kit 8*, відповідно визначивши змінні середовища оточення `JAVA_HOME` і `PATH`.
-	- [Завантажити](http://download.eclipse.org/eclipse/downloads/) чистий *Eclipse Platform Runtime Binary* стабільної версії, наприклад, [eclipse-platform-4.7](http://download.eclipse.org/eclipse/downloads/drops4/R-4.7-201706120950/#PlatformRuntime) (розрядність повинна відповідати JDK) і розпакувати архів (для ОС Windows - в кореневий каталог логічного диска).
-	- Використовуючи [Eclipse Oxygen update site URL](http://download.eclipse.org/releases/oxygen/), в Eclipse за допомогою меню *Help/Install New Software...* встановити наступні модулі:
-		- в розділі *Linux Tools* компонент *GCov Integration*;
-		- в розділі *Programming Languages* компоненти:
-			- *C/C++ Development Tools*;
-			- *C/C++ Library API Documentation Hover Help*;
-			- *C/C++ Unit Testing Support*.
-	- Продовжити [встановлення та налаштування](#eclipse) компонентів.
+2. <span id="note_summary"></span>Уточнення завдання та засобів розробки за розсудом викладача.
 
-3. <span id="note_msys"></span>Для пошуку компілятора *Eclipse* використовує значення змінних середовища:
-
-	`PATH`, `MINGW_HOME`, `MSYS_HOME`.
-
-	Для використанні *GNU C++* компілятора у складі *MSYS/MinGW* разом з *Eclipse* треба встановити коректні значення вищевказаних змінних.
-
-4. <span id="note_summary"></span>Уточнення завдання та засобів розробки за розсудом викладача.
