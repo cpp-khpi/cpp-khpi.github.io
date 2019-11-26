@@ -173,10 +173,10 @@
 - [Wiki. C Data Types](https://en.wikipedia.org/wiki/C_data_types)
 - [Wiki. C Syntax](https://en.wikipedia.org/wiki/C_syntax)
 - [Wiki. C Standard Library](https://en.wikipedia.org/wiki/C_standard_library)
-- [The International Standardization Working Group for the Programming Language C](http://www.open-std.org/jtc1/sc22/wg14/)
-- [ISO/IEC 9899:2011 - Standard for Programming
-Language C (C11). Draft](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
 - [Wiki. Operators in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B)
+- [Wiki. The most recent standard for the C programming language](https://en.wikipedia.org/wiki/C18_(C_standard_revision))
+- [ISO/IEC 9899:2018 - Standard for Programming Language C (C18). Archived final draft](https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf)
+- [C Reference](https://en.cppreference.com/w/c)
 
 - C Programming: A Modern Approach, 2nd Edition by K. N. King Paperback. ISBN-13: 978-0393979503, ISBN-10: 0393979504
 - Study Guide: for C Programming: A Modern Approach by Manuel E. Bermude. ISBN-13: 978-0393969467, ISBN-10: 0393969460
