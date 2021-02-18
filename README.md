@@ -13,52 +13,33 @@
 
 ### Основні
 
-1. [Visual Studio Community](https://www.visualstudio.com/free-developer-offers/) - інтегроване середовище розробки.
+1. [GNU Compiler Collection](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) - компілятор.
 
-2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html#srcbin) <span id="doxy"></span> - система документування початкового коду (див. [рекомендації](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/doxy.pdf)). Додатково встановити:
-	- [Graphviz](http://www.graphviz.org/Download.php) - Graph Visualization Software;
+2. [Clang](https://uk.wikipedia.org/wiki/Clang) в складі [LLVM](https://en.wikipedia.org/wiki/LLVM). [LLVM Download Page](http://releases.llvm.org/download.html). Зручні інструменти:
+	- [scan-build](https://clang-analyzer.llvm.org/scan-build.html).
+	- [LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html).
+	- [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html).
+
+3. [Doxygen](https://www.doxygen.nl/download.html) <span id="doxy"></span> - система документування початкового коду (див. [рекомендації](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/doxy.pdf)). Додатково встановити:
+	- [Graphviz](https://graphviz.org/download/) - Graph Visualization Software.
 	- [Mscgen](http://www.mcternan.me.uk/mscgen/) - Message Sequence Chart Renderer.
 
 ### Додаткові
 
 1. [Cppcheck](http://cppcheck.sourceforge.net/)<span id="cppcheck"></span> - статичний аналізатор C/C++ коду, призначений для пошуку помилок, які не виявляються компілятором.
 
-2. [TortoiseSVN](http://tortoisesvn.net/downloads.html) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - [Subversion](https://ru.wikipedia.org/wiki/Subversion) client ([Manuals](https://tortoisesvn.net/support.html)). В лабораторіях ОЦ НТУ "ХПІ" активувати використання *proxy-сервера* в меню *TortoiseSVN/Settings/Network*:
-	- Enable Proxy Server;
-	- Server address: `172.17.10.2`;
-	- Port: `3128`.
+2. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) - середовище розробки програм мовою [C++](http://isocpp.org/), [C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
 
-3. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - [Subversion](https://ru.wikipedia.org/wiki/Subversion) integration plug-in for Visual Studio ([Getting Started](https://www.visualsvn.com/visualsvn/getting-started/)).
-
-4. [SVN Hosting](https://github.com) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - веб-сервіс управління версіями:
-	- потрібна попередня [реєстрація](https://github.com/join);
-	- при реєстрації **обов'язково** вказувати **Username** у вигляді **surname-name** - прізвище та ім'я розробника [латинкою в нижньому регістрі](http://translit.kh.ua/?lat&passport).
-
-### Альтернативні
-
-1. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор. Розпакувати в кореневу директорію [MinGW-w64](https://uk.wikipedia.org/wiki/MinGW#MinGW-w64) відповідної версії для платформи [Win32](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/) чи [Win64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/). ВАЖЛИВО: налаштувати змінну середовища - додати шлях до директорії `bin` встановленого *GCC/MinGW* (наприклад: `D:\mingw64\bin`, або `D:\gcc\bin`). Розрядність (32 або 64) встановлених *JDK, Eclipse* та *GCC/MinGW* повинна бути однаковою.
-
-2. [Clang](https://uk.wikipedia.org/wiki/Clang) в складі [LLVM](https://en.wikipedia.org/wiki/LLVM). [LLVM Download Page](http://releases.llvm.org/download.html). Зручні інструменти: [scan-build](https://clang-analyzer.llvm.org/scan-build.html), [LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html), [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html).
-
-3. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) - середовище розробки програм мовою [C++](http://isocpp.org/) ([C++ reference](http://en.cppreference.com/w/), [C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
-
-	За потребою, встановити [OpenJDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot).
-
-	Додатково встановити:
-
-	- [Subclipse (Eclipse update site URL)](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in which provides support for Subversion ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
-
-		- Subclipse;
-
-		- Subversion JavaHL Windows Native DLL's;
-
-	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in which integrates [cppcheck](http://cppcheck.sourceforge.net/) with the CDT project ([Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)).
+3. [GitLab](https://gitlab.com/) - система керування репозиторіями програмного коду для [Git](https://uk.wikipedia.org/wiki/Git):
+	- потрібна попередня [реєстрація](https://gitlab.com/users/sign_up);
+	- при реєстрації **обов'язково** вказувати **Username** у вигляді **surname_name** - прізвище та ім'я розробника [латинкою в нижньому регістрі](http://translit.kh.ua/?lat&passport).
 
 ### Online Compilers and IDEs
 
-1. [JDoodle](https://www.jdoodle.com/). Easy and Quick way to run Programs Online.
-2. [GDB Online](https://www.onlinegdb.com/). Online compiler and debugger tool for C/C++ languages.
+1. [GDB Online](https://www.onlinegdb.com/). Online compiler and debugger tool for C/C++ languages.
+2. [JDoodle](https://www.jdoodle.com/). Easy and Quick way to run Programs Online.
 3. [Coding Ground](https://www.tutorialspoint.com/codingground.htm). An online Lab for IT Professionals.
+4. [C++ shell](http://cpp.sh/)
 
 ---
 
@@ -67,7 +48,7 @@
 
 |  №  | Завдання |
 |:---:|:---------|
-|  1  | Розробити програму для рішення [індивідуального завдання](#appendices) <sup><abbr title="Уточнення завдання за розсудом викладача">[2](#note_summary)</abbr></sup>. |
+|  1  | Розробити програму для рішення [індивідуального завдання](#appendices) <sup><abbr title="Уточнення завдання за розсудом викладача">[1](#note_summary)</abbr></sup>. |
 |  2  | Виконати [рефакторинґ](https://refactoring.guru/) з урахуванням загальних [вимог](#lab_requirements). |
 |  3  | Підготувати до перевірки опис розробленої програми у вигляді [звіту](#lab_report). |
 |  4  | Виправити програму з урахуванням отриманих зауважень. |
@@ -77,13 +58,13 @@
 <span id="lab_requirements"></span>
 ## Вимоги
 
-1. **Проекти** розміщувати в директоріях `surname-name/src/surnameXX`, де:
-	- *surname-name* - назва особистої директорії в спільному сховищі *Subversion*;
+1. **Проекти** розміщувати в директоріях `surname_name/c/labXX` та `surname_name/cpp/labXX`, де:
+	- *surname_name* - назва особистої директорії в сховищі *Git*;
 	- *XX* - номер роботи.
 
-2. **Початковий** код розташовувати в репозиторії лише той, що успішно компілюється та відповідає [Coding Conventions](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/cpp_coding_conventions.pdf).
+2. **Початковий** код, що компілюється без помилок та відповідає [Coding Conventions](https://github.com/cpp-khpi/cpp-khpi.github.io/raw/master/doc/cpp_coding_conventions.pdf), додавати до репозиторію, розташовуючи в директоріях `src`.
 
-3. **Звіти** розташовувати в директоріях `surname-name/doc/surnameXX`.
+3. **Звіти** розташовувати в файлах `readme.md` директорій проектів, або в файлах `.doc/.docx/.odd + .pdf` директорій `doc`.
 
 4. **Коментувати** текст програми для обробки пакетом [Doxygen](#doxy).
 
@@ -101,35 +82,24 @@
 		
 		`#4 raeth: fix regression after [a002b90]`
 
-6. **Назву** особистої директорії *surname* з відповідним номером роботи *XX* використовувати для іменування директорій **рішень**, **проектів** і **звітів** лабораторних робіт.
-
-	Наприклад, студент з особистим каталогом `shevchenko-taras`
+6. **Наприклад**, студент з особистим каталогом `shevchenko_taras`
 	
-	- розробляє всі проекти у межах одного рішення *(Solution)* з назвою `shevchenko`;
-	- для проектів *Visual C++* двох лабораторних робіт використовує назви `shevchenko01`, `shevchenko02` і відповідні шляхи:
+	- розробляє всі проекти у межах одного *репозиторія* з назвою `shevchenko_taras`;
+	- для початкового кода проектів двох перших лабораторних робіт мовами *С* та *C++* використовує відповідні шляхи:
 		
-		`shevchenko-taras/src/shevchenko01/shevchenko01.vcxproj`
+		`shevchenko_taras/c/lab01/src/`
 		
-		`shevchenko-taras/src/shevchenko02/shevchenko02.vcxproj`
+		`shevchenko_taras/cpp/lab01/src/`
 		
 	- для звітів використовує наступні шляхи і назви файлів:
 		
-		`shevchenko-taras/doc/shevchenko01/shevchenko01.odt`
+		`shevchenko_taras/c/lab01/doc/lab01.odt`
 		
-		`shevchenko-taras/doc/shevchenko01/shevchenko01.pdf`
+		`shevchenko_taras/c/lab01/doc/lab01.pdf`
 		
-		`shevchenko-taras/doc/shevchenko02/shevchenko02.odt`
+		`shevchenko_taras/cpp/lab01/doc/lab01.odt`
 		
-		`shevchenko-taras/doc/shevchenko02/shevchenko02.pdf`
-
-7. **Checkout URL** для доступу до особистої директорії формується додаванням до *Checkout URL* спільного сховища `/trunk` та назви особистої директорії. Наприклад:
-	- загальне сховище має *Checkout URL:*
-
-		`https://github.com/cpp-khpi/kitXX.git`
-
-	- тоді *Checkout URL* для доступу до особистої директорії *shevchenko-taras*:
-
-		`https://github.com/cpp-khpi/kitXX.git/trunk/shevchenko-taras`
+		`shevchenko_taras/cpp/lab01/doc/lab01.pdf`
 
 ---
 
@@ -175,7 +145,7 @@
 - [Wiki. C Standard Library](https://en.wikipedia.org/wiki/C_standard_library)
 - [Wiki. Operators in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B)
 - [Wiki. The most recent standard for the C programming language](https://en.wikipedia.org/wiki/C18_(C_standard_revision))
-- [ISO/IEC 9899:2018 - Standard for Programming Language C (C18). Archived final draft](https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf)
+- [HTML and PDF versions of C89, C99, and C11](http://port70.net/~nsz/c/)
 - [C Reference](https://en.cppreference.com/w/c)
 
 - C Programming: A Modern Approach, 2nd Edition by K. N. King Paperback. ISBN-13: 978-0393979503, ISBN-10: 0393979504
@@ -200,10 +170,7 @@
 - [Bjarne Stroustrup's homepage](http://www.stroustrup.com/)
 - [C++ 11 FAQ от Бьярна Страуструпа](http://sergeyteplyakov.blogspot.com/2012/05/c-11-faq.html)
 - [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
-- [The International Standardization Working Group for the Programming Language C++](http://www.open-std.org/JTC1/SC22/WG21/)
-- [SO/IEC 14882:2014 - Standard for Programming
-Language C++ (C++14). Working Draft](http://www.open-std.org/JTC1/SC22/WG21/docs/papers/2013/n3797.pdf)
-- [News, Status & Discussion about Standard C++](https://isocpp.org/)
+- [C++98, C++03, C++11 and C++14](http://port70.net/~nsz/c/c%2B%2B/)
 - [Coding Standards](https://isocpp.org/wiki/faq/coding-standards)
 
 - The C++ Programming Language, 4th Edition by Bjarne Stroustrup. ISBN-13: 978-0321563842, ISBN-10: 0321563840
@@ -216,14 +183,6 @@ Language C++ (C++14). Working Draft](http://www.open-std.org/JTC1/SC22/WG21/docs
 
 <span id="appendices"></span>
 ## Додатки
-
-1. **Приклади рішень** розміщуються в директорії [src](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/src) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/src):
- 
-	`https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/src`
-
-2. **Документи** розміщуються в директорії [doc](https://github.com/cpp-khpi/cpp-khpi.github.io/tree/master/doc) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/doc):
- 
-	`https://github.com/cpp-khpi/cpp-khpi.github.io.git/trunk/doc`
 
 |  №  | Файл | Зміст |
 |:---:|:-----|:------|
@@ -238,7 +197,5 @@ Language C++ (C++14). Working Draft](http://www.open-std.org/JTC1/SC22/WG21/docs
 <span id="notes"></span>
 ## Примітки
 
-1. <span id="note_svn"></span>*SVN-репозиторій* та веб-сервіс управління версіями використовувати за розсудом викладача.
-
-2. <span id="note_summary"></span>Уточнення завдання та засобів розробки за розсудом викладача.
+1. <span id="note_summary"></span>Уточнення завдання та засобів розробки за розсудом викладача.
 
